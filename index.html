@@ -1,38 +1,110 @@
-1  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UPSCHOOL</title>
-    <link rel="stylesheet" href="css/master.css">
+    <title>E-LIST</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/my-grid.css">
+    <link rel="stylesheet" href="css/master.css">
 
 </head>
 <body>
-    <div class="top">
-        <div class="logoArea">logo area</div>
-        <div class="linksArea">link area</div>
+    <div class="top flex-row flex-justify-between">
+        <div class="top-logoArea">
+           <a href="#">
+            E-LIST
+           </a>
+        </div>
+        <div class="top-linksArea">
+            <ul class="flex-row flex-justify-end">
+                <li><a href="#"> <i class="fa fa-search"></i> <span>EVENTS</span></a></li>
+                <li><a href="#"> <i class="fa fa-user"></i> <span>ABOUT</span></a></li>
+                <li><a href="#"> <i class="fa fa-rss"></i>  <span>BlOG</span> </a></li>
+                <li><a href="#"> <i class="fa fa-bars"></i> MORE</a></li>
+            </ul>
+        </div>
     </div>
-    <header class="headerArea">
-        <h1 class="header-text">
-            Lorem ipsum dolor sit amet consectetur 
-            adipisicing elit. Eligendi minima natus neque.
-        </h1>
-        <div class="searchArea">Search box</div>
-        <div class="searchBtn">HOW IT WORKS</div>
-    </header>
+    <section class="large-heading-section">
+        <header class="headerArea">
+        
+            <div class="headerArea-inner">
+            <h1 class="header-text">
+                 FIND EVENTS AND EVENTS CENTERS
+            </h1>
+            <div class="searchArea">
+                <p>ENTER A NEIGHBORHOOD</p>
+                <div class="input-and-button flex-row flex-justify-between">
+                    <div class="inputDiv auto-flex">
+                        <input type="text">
+                    </div>
+                   <div class="searchBTN-container initial-flex">
+                    <button class="searchBTN">SEARCH</button>
+                   </div>
+                    
+                </div>
+               
+            </div>
+            <div class="how-it-work">HOW IT WORKS</div>
+            </div>
+        </div>
+        </header>
+    </section>
+
     <section>
         <div class="steps">
-            <div class="step-one">one</div>
-            <div class="step-two">Two</div>
-            <div class="step-three">Three</div>
-            <div class="step-four">Four</div>
+             
+            <div class="step-one flex-row">
+                <div class="search-school">
+                    <span class="de-icon"> 
+                 <span class="fa fa-search large-icon" ></span>
+                    </span>
+                    </span>
+                    <p class="txt-con"> 
+                        It is simple. Visit E-list, enter the name of the area you want to 
+                        host your event or better still enter the name of the event center you have in mind. Alternatively, click on events on the top right conner of the page to display the events happenning near you and the event center also near you. near you
+                    </p>
+                </div>
+    
+                <div class="locate-school border-bottom-left">
+                    <span class="de-icon">
+             <span class="fa fa-map-marker large-icon"> </span>
+                    </span>
+                    <p class="txt-con">
+                         Click to see more details about the event or the event center and every other deatil you may need. Its even more personal because you can have direct contact with the people involved.
+                   
+                    </p>
+                </div>
+            </div>
+            
+
+            <div class="step-two flex-row">
+                <div class="apply-school  border-top-right">
+                    <span class="de-icon">
+   <span class="fa fa-file-text large-icon"> </span>
+                    </span>
+                    <p class="txt-con">
+                         You can write to event center owners, or communicate with the event organizers or do whatever is the reason you are searching for events or evnts center
+                    </p>
+                </div>
+    
+                <div class="relax-school">
+                    <span class="de-icon">
+            <span class="fa fa-money large-icon"> </span>
+                    </span>
+                    <p class="txt-con">
+                        It is most likely that your conversation will lead to a business deal. This is the time could could relax and make the payment from the comfort of your home
+                    </p>
+                </div>
+            </div>
+
+
         </div>
     </section>
     <footer>
         <div class="bottom-first">
             
-               <ul class="bottom-first-links">
+               <ul class="bottom-first-links flex-row flex-justify-between">
                    <li><a href="">home</a></li>
                    <li><a href="">search</a></li>
                    <li><a href="">about us</a></li>
