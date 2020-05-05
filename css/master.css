@@ -145,3 +145,44 @@ body {
     border-left: solid 1px #ccc;
 }
 
+.my-footer {
+    background-color: #333;
+    padding-top: 30px;
+}
+
+.bottom-first-links {
+    width: 90%;
+    margin: auto;
+    height: 40px;
+    border-bottom: solid 1px #999;
+    border-top: solid 1px #999;
+}
+
+
+.bottom-first-links li{
+    width: 90%;
+    margin: auto;
+    list-style: none;
+    text-align: center;
+}
+
+.bottom-first-links li a {
+     color: #ccc;
+     font-size: 0.8em;
+     text-transform: uppercase;
+     text-decoration: none;
+     display: block;
+}
+
+.bottom-second {
+ width: 90%;
+ margin: auto;
+}
+
+.subscribe,
+.contact,
+.about {
+    width: 33.3%;
+    text-align: center;
+}
+
