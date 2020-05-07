@@ -1,41 +1,39 @@
 # Project Name
 
-> One paragraph statement about the project.
+> My HTML & CSS capstone project: Directory of Schools
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+This project has three pages crafted with HTML and CSS. THe three pages are the homepage, the search page and the details page. 
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML5,
+- CSS3,
+- FLEX BOX
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://pensive-hypatia-53582d.netlify.app)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+ 
 
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+### You will need a functional personal computer
 
-### Setup
+### Create a folder in any location of your joice in your compter
 
-### Install
+### Copy the link of this git repository
 
-### Usage
+### Open your computers command line and move into the directory you made for this project, and clone the repository
 
-### Run tests
+### To view this project in the browser just double click any html file
 
-### Deployment
 
 
 
@@ -47,17 +45,13 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
 
-👤 **Author2**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/gabrie-lhilarion/E-list/issues/1).
 
 ## Show your support
 
@@ -65,9 +59,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse
+- Behence.com
+- Teamm 116 of Microverse
 
 ## 📝 License
 
