@@ -12,38 +12,63 @@
 .flex-align-end{align-items:flex-end}
 .flex-align-stretch{align-items:stretch}
 .flex-align-baseline{align-items:baseline}
-.auto-flex{flex:auto;}
-.initial-flex{flex:initial;}
+.grow-two{flex-grow: 2;}
+.auto-flex{flex: auto}
 
 /* mobile: up to 768px */
 @media only screen and (max-width:768px){
-.d-sm-none{display:block}
-.flex-sm-row{display:flex;flex-direction:row;flex-wrap:nowrap}
-.flex-sm-column{display:flex;flex-direction:column}
-.flex-sm-justify-between{justify-content:space-between}
-.flex-sm-justify-arround{justify-content:space-around}
-.flex-sm-justify-center{justify-content:center}
-.flex-sm-justify-end{justify-content:flex-end}
-.flex-sm-justify-start{justify-content:flex-start}
-.flex-sm-align-center{align-items:center}
-.flex-sm-align-start{align-items:flex-start}
-.flex-sm-align-end{align-items:flex-end}
-.flex-sm-align-stretch{align-items:stretch}
-.flex-sm-align-baseline{align-items:baseline}
-.float-sm-right{float:right}
-.float-sm-left{float:right}
-.col-sm-1{grid-column:span 1}
-.col-sm-2{grid-column:span 2}
-.col-sm-3{grid-column:span 3}
-.col-sm-4{grid-column:span 4}
-.col-sm-5{grid-column:span 5}
-.col-sm-6{grid-column:span 6}
-.col-sm-7{grid-column:span 7}
-.col-sm-8{grid-column:span 8}
-.col-sm-9{grid-column:span 9}
-.col-sm-10{grid-column:span 10}
-.col-sm-11{grid-column:span 11}
-.col-sm-12{grid-column:span 12}
+.d-sm-none{display:block;}
+.d-lg{display:none}
+.steps .flex-row,.bottom-first-links.flex-row{display:block;}
+.steps .search-event,
+.steps .locate-event,
+.steps .apply-event,
+.steps .relax-event {
+    color: #333;
+    width: 100%;
+}
+
+.searchArea .flex-row {
+  display: block;
+}
+
+.input-and-button.border-all {
+    border: none;
+}
+
+.headerArea-inner {
+    width: 96%;
+    margin: auto;
+}
+
+.searchArea  .searchBTN-container {
+    width: 100%;
+    padding: 0;
+}
+
+.inputDiv input[type='text'] {
+    height: 40px;
+    width: 99.8%;
+    border: none;
+    border-radius: 3px;
+}
+
+.searchArea .searchBTN {
+    width: 100%;
+    margin: 8px auto;
+    border: none;
+    border-radius: 3px;
+   }  
+
+.center-anchor {
+    display: none;
+    width: 0;
+  }
+
+  .bottom-first-links a {
+    text-align: left;
+    margin: 10px 0;
+  }
 }
 /* tablet: up to 1024px */
 @media only screen and (max-width:1024px)
@@ -74,10 +99,131 @@
 .col-md-10{grid-column:span 10}
 .col-md-11{grid-column:span 11}
 .col-md-12{grid-column:span 12}
+
+
+.search-event,
+.locate-event,
+.apply-event,
+.relax-event {
+    color: #333;
+    width: 100%;
 }
-/* desktop: up to 1024px */
+.headerArea-inner {
+    max-width: 96%;
+    margin: auto;
+    padding: 30px 0;
+    z-index: 100;
+}
+
+.bottom-second.flex-row, 
+.last-bottom.flex-row {
+    display:block;
+}
+
+.subscribe,
+.contact,
+.about {
+    width: 100%;
+}
+
+
+ 
+}
+
+/* Between 750 and 1024*/
+
+@media only screen and (min-width: 769px) 
+and (max-width: 1024px) {
+
+.headerArea-inner {
+    width: 65%;
+    margin: auto;
+}
+
+.searchArea  .searchBTN-container {
+    width: 20%;
+    padding: 0;
+}
+
+.searchArea .inputDiv {
+    width: 80%;
+}
+
+.inputDiv input[type='text'] {
+    width: 100%;
+    border: none;
+    display: block;
+    height: 35px;
+}
+
+.searchArea .searchBTN {
+    width: 100%;
+    margin: auto;
+    border: none;
+   }
+
+  
+
+}
+
+/* desktop: up to largest screen */
 @media only screen and (min-width:1024px)
 {
+    .headerArea-inner {
+        max-width: 60%;
+        margin: auto;
+        padding: 30px 0;
+        z-index: 100;
+    }
+ 
  .d-md-none{display:none} 
  .top-logoArea a {font-size:1.3rem;}
+ 
+ .initial-flex{flex:initial;}
+ .subscribe,
+.contact,
+.about {
+    width: 33.3%;
+    text-align: center;
+}
+ 
+.center-anchor {
+    height: 30px;
+    position: relative;
+    color: black;
+    display: block;
+}
+
+.p-relative {
+    position: absolute;
+    height: 60px;
+    width: 100%;
+    left: 0;
+    top: -20px;
+}
+
+.rounded {
+    width: 70px;
+    height: 70px;
+    display: block;
+    border-radius: 50%;
+    border: solid 1px #ccc;
+    margin: auto;
+    background-color: #333;
+    color: #fff;
+    font-size: 3em;
+}
+
+
+
+.bottom-first-links {
+    width: 90%;
+    margin: auto;
+    height: 40px;
+    border-bottom: solid 1px #999;
+    border-top: solid 1px #999;
+}
+
+
+
 }
