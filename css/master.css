@@ -35,6 +35,16 @@
     src: url(../fonts/LilongueSansThin.ttf);
 }
 
+@font-face {
+    font-family: "ARCHITYPERENNERBOLD";
+    src: url(../fonts/ARCHITYPERENNERBOLD.ttf);
+}
+
+@font-face {
+    font-family: "ARCHITYPERENNER";
+    src: url(../fonts/ARCHITYPERENNER.ttf);
+}
+
 * {margin:0;padding:0;}
 .p-ten{padding:10px;}
 .pt-ten{padding-top:10px;}
@@ -49,12 +59,16 @@
 
 body {
     color: #fff;
-    font-family: LilongueSansBold;
+    font-family: ARCHITYPERENNERBOLD;
 }
 
 a {
     color: #000;
     text-decoration: none;
+}
+
+p {
+    font-family: LilongueSnasThin;
 }
 
 .top {
@@ -96,7 +110,7 @@ a {
     padding: 3px 15px;
     color: #fff;
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1rem;
     display: inline-block;
 }
 
@@ -238,31 +252,18 @@ a {
 
 .case-info {
     min-height: 200px;
-    margin-left: 30px;
     text-align: left;
     color: #fff;
     width: 80%;
 }
 
-.case-info h4 {
-     font-size: 150%;
-     margin: 20px 0;
-}
 
-.case-info p {
-    font-size: 150%;
-}
 
 .case-info button {
      padding: 5px;
      margin: 20px 0;
 }
 
-.case-image {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-  }
 
 .case-image-one {
     background-image: url(../images/locate-image.jpg);
@@ -294,6 +295,7 @@ a {
 .my-footer {
     background-color: #333;
     padding-top: 30px;
+    font-family: LilongueSnasThin;
 }
 
 
@@ -359,6 +361,7 @@ a {
 .copy-right-info,
 .developer-info {
    padding: 15px 0;
+   font-size: 0.8em;
 }
 
 .last-bottom {
@@ -413,6 +416,7 @@ from search-result*/
 .event-center-name {
     color: #000;
     text-align: center;
+    padding: 15px;;
 }
 
 .feature-wrap {
@@ -457,28 +461,7 @@ from search-result*/
 .full-description {
     text-align: justify;
     margin: 30px 0;
-}
-
-.click-to-view {
-    box-sizing: border-box;
-    background-color: #f9f9f9;
-    padding: 20px 40px;
-}
-
-.click-to-view span {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    background-color: #ccc;
-    text-transform: uppercase;
-}
-
-.click-to-view strong {
-    height: 30px;
-    text-transform: uppercase;
-    font-size: 2.2em;
-    color: grey;
-    margin-left: 20px;
+    font-family: Lilongue;
 }
 
 .map p {
