@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-LIST</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/my-grid.css">
+    <link rel="stylesheet" href="css/master.css">
+
+</head>
+<body class="container">
+    <div class="page-wrap">
+    <section class="top flex-row flex-justify-between">
+        <div class="top-logoArea">
+            <a href="#">  <h3> E-LIST  </h3>  </a>  
+        </div>
+        <nav class="top-linksArea">
+            <ul class="flex-row flex-justify-end">
+                <li>
+                    <a href="#"> 
+                        <i class="fa fa-home"></i> 
+                        <span class="d-sm-none">HOME</span>
+                    </a>
+                </li>
+                <li><a class="active" href="#"> 
+                    <i class="fa fa-search"></i> 
+                    <span class="d-sm-none">EVENTS</span></a>
+                </li>
+                <li>
+                    <a href="#"> 
+                        <i class="fa fa-user"></i> 
+                        <span class="d-sm-none">ABOUT</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"> 
+                        <i class="fa fa-rss"></i>  
+                        <span class="d-sm-none">BlOG</span> 
+                    </a>
+                </li>
+                <li>
+                    <a href="#"> 
+                        <i class="fa fa-bars"></i> 
+                        <span class="d-sm-none"> MORE</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </section>
+
+    <section class="large-heading-section">
+        <header class="headerArea">
+        
+            <div class="headerArea-inner">
+            <h1 class="header-text">
+                 FIND EVENTS AND EVENTS CENTERS
+            </h1>
+            <div class="searchArea d-md-none">
+                <p>ENTER A NEIGHBORHOOD</p>
+                <form action="search-result.html" >
+                <div class="input-and-button flex-row flex-justify-between border-all">
+                    <div class="inputDiv auto-flex">
+                        <input type="text"> 
+                    </div>
+                   <div class="searchBTN-container initial-flex">
+                      
+                        <button class="searchBTN">SEARCH</button>
+                    
+                    
+                   </div>
+                    
+                </div>
+                  </form>
+            </div>
+
+            <div class="searchArea-large d-sm-none">
+                <p>ADVANCED SEARCH</p>
+                <form action="search-result.html"> 
+                <div class="advanced-search flex-row flex-justify-between border-all">
+                       <div class="auto-flex">
+                        <select class="street" name="street">
+                            <option value="">-select area-</option>
+                            <option value="Abuja">Aboh</option>
+                            <option value="Abuja">Ezinihitte</option>
+                            <option value="Abuja">Ahiazu</option>
+                            <option value="Abuja">Ahiara</option>
+                        </select>
+                       </div>
+                      
+
+                       <div class="auto-flex">
+                        <select class="state" name="state">
+                        <option value="Abuja">-select State</option>
+                            <option value="Abuja">Anambra</option>
+                            <option value="Abuja">Adamawa</option>
+                            <option value="Abuja">Abuja</option>
+                            <option value="Abuja">Lagos</option>
+                        <option value="Abuja">Imo</option>
+                           </select>
+                       </div>
+                      
+                       
+                       <div class="auto-flex">
+                        <button class="searchBTN">SEARCH</button>
+                       </div>
+                       
+                </div>
+                </form>
+            </div>
+
+
+            
+            </div>
+        
+        </header>
+    </section>
+     <section> 
+         <div class="bradcrupms">
+             <span class="home">HOME</span> <span>&#187;</span> <span class="search">SEARCH</span>
+         </div>
+         <h1 class="search-results">
+             SEARCH RESULT: 
+             <span class="number-found">9 EVENT CENTERS  FOUND</span> 
+         </h1>
+     </section>
+    <section class="steps">
+             <!--This part is must suitable for a combination of grid and flex 
+                (because the display content is actually going to be dynamic).
+                 I haved used flex because flex is mentioned
+                in the requirements
+             -->
+        <div class="step-one flex-row">
+            <article class="auto-flex">
+                <div class="search-result">
+                <div class="search-result-inner flex-column">
+                <div class="search-result-image">
+                   <img src="images/eating.jpg" alt="">
+                </div>
+
+                <div class="search-result-text"> 
+                   <h2>CITY GLOBAL EVENT CENTER</h2>
+                   <p>It is simple. Visit E-list, enter the name of the area you want to 
+                    host your event or better still enter the name of the event center you have in mind. Alternatively, click on events on the top right conner of the page to display the events happenning near you and the event center also near you. near you
+                    </p>
+                    <a href="details.html" class="learn-more"><strong>learn more..</strong></a>
+                </div>
+                </div>
+
+                </div>
+            </a>
+            </article>
+
+            <article class="auto-flex">
+                <div class="search-result">
+                <div class="search-result-inner flex-column">
+                <div class="search-result-image">
+                   <img src="images/eating.jpg" alt="">
+                </div>
+
+                <div class="search-result-text"> 
+                   <h2>CITY GLOBAL EVENT CENTER</h2>
+                   <p>It is simple. Visit E-list, enter the name of the area you want to 
+                    host your event or better still enter the name of the event center you have in mind. Alternatively, click on events on the top right conner of the page to display the events happenning near you and the event center also near you. near you
+                    </p>
+                    <a href="details.html" class="learn-more"><strong>learn more..</strong></a>
+                </div>
+                </div>
+
+                </div>
+            </a>
+            </article>
+
+            <article class="auto-flex">
+                <div class="search-result">
+                <div class="search-result-inner flex-column">
+                <div class="search-result-image">
+                   <img src="images/eating.jpg" alt="">
+                </div>
+
+                <div class="search-result-text"> 
+                   <h2>CITY GLOBAL EVENT CENTER</h2>
+                   <p>It is simple. Visit E-list, enter the name of the area you want to 
+                    host your event or better still enter the name of the event center you have in mind. Alternatively, click on events on the top right conner of the page to display the events happenning near you and the event center also near you. near you
+                    </p>
+                    <a href="details.html" class="learn-more"><strong>learn more..</strong></a>
+                </div>
+                </div>
+
+                </div>
+            </a>
+            </article>
+
+            
+        </div>
+        
+
+        <div class="step-one flex-row">
+            <article class="auto-flex">
+                <div class="search-result">
+                <div class="search-result-inner flex-column">
+                <div class="search-result-image">
+                   <img src="images/eating.jpg" alt="">
+                </div>
+
+                <div class="search-result-text"> 
+                   <h2>CITY GLOBAL EVENT CENTER</h2>
+                   <p>It is simple. Visit E-list, enter the name of the area you want to 
+                    host your event or better still enter the name of the event center you have in mind. Alternatively, click on events on the top right conner of the page to display the events happenning near you and the event center also near you. near you
+                    </p>
+                    <a href="details.html" class="learn-more"><strong>learn more..</strong></a>
+                </div>
+                </div>
+
+                </div>
+            </a>
+            </article>
+
+            <article class="auto-flex">
+                <div class="search-result">
+                <div class="search-result-inner flex-column">
+                <div class="search-result-image">
+                   <img src="images/eating.jpg" alt="">
+                </div>
+
+                <div class="search-result-text"> 
+                   <h2>CITY GLOBAL EVENT CENTER</h2>
+                   <p>It is simple. Visit E-list, enter the name of the area you want to 
+                    host your event or better still enter the name of the event center you have in mind. Alternatively, click on events on the top right conner of the page to display the events happenning near you and the event center also near you. near you
+                    </p>
+                    <a href="details.html" class="learn-more"><strong>learn more..</strong></a>
+                </div>
+                </div>
+
+                </div>
+            </a>
+            </article>
+
+            <article class="auto-flex">
+                <div class="search-result">
+                <div class="search-result-inner flex-column">
+                <div class="search-result-image">
+                   <img src="images/eating.jpg" alt="">
+                </div>
+
+                <div class="search-result-text"> 
+                   <h2>CITY GLOBAL EVENT CENTER</h2>
+                   <p>It is simple. Visit E-list, enter the name of the area you want to 
+                    host your event or better still enter the name of the event center you have in mind. Alternatively, click on events on the top right conner of the page to display the events happenning near you and the event center also near you. near you
+                    </p>
+                    <a href="details.html" class="learn-more"><strong>learn more..</strong></a>
+                </div>
+                </div>
+
+                </div>
+            </a>
+            </article>
+
+            
+        </div>
+
+
+        <div class="step-one flex-row">
+            <article class="auto-flex">
+                <div class="search-result">
+                <div class="search-result-inner flex-column">
+                <div class="search-result-image">
+                   <img src="images/eating.jpg" alt="">
+                </div>
+
+                <div class="search-result-text"> 
+                   <h2>CITY GLOBAL EVENT CENTER</h2>
+                   <p>It is simple. Visit E-list, enter the name of the area you want to 
+                    host your event or better still enter the name of the event center you have in mind. Alternatively, click on events on the top right conner of the page to display the events happenning near you and the event center also near you. near you
+                    </p>
+                    <a href="details.html" class="learn-more"><strong>learn more..</strong></a>
+                </div>
+                </div>
+
+                </div>
+            </a>
+            </article>
+
+            <article class="auto-flex">
+                <div class="search-result">
+                <div class="search-result-inner flex-column">
+                <div class="search-result-image">
+                   <img src="images/eating.jpg" alt="">
+                </div>
+
+                <div class="search-result-text"> 
+                   <h2>CITY GLOBAL EVENT CENTER</h2>
+                   <p>It is simple. Visit E-list, enter the name of the area you want to 
+                    host your event or better still enter the name of the event center you have in mind. Alternatively, click on events on the top right conner of the page to display the events happenning near you and the event center also near you. near you
+                    </p>
+                    <a href="details.html" class="learn-more"><strong>learn more..</strong></a>
+                </div>
+                </div>
+
+                </div>
+            </a>
+            </article>
+
+            <article class="auto-flex">
+                <div class="search-result">
+                <div class="search-result-inner flex-column">
+                <div class="search-result-image">
+                   <img src="images/eating.jpg" alt="">
+                </div>
+
+                <div class="search-result-text"> 
+                   <h2>CITY GLOBAL EVENT CENTER</h2>
+                   <p>It is simple. Visit E-list, enter the name of the area you want to 
+                    host your event or better still enter the name of the event center you have in mind. Alternatively, click on events on the top right conner of the page to display the events happenning near you and the event center also near you. near you
+                    </p>
+                    <a href="details.html" class="learn-more"><strong>learn more..</strong></a>
+                </div>
+                </div>
+
+                </div>
+            </a>
+            </article>
+
+            
+        </div>
+
+
+    </section>
+
+
+    <footer class="my-footer">
+        <div class="bottom-first">
+            
+               <ul class="bottom-first-links flex-row flex-justify-between">
+                   <li><a href="">home</a></li>
+                   <li><a href="">search</a></li>
+                   <li><a href="">about us</a></li>
+                   <li><a href="">advertize</a></li>
+                   <li><a href="">ANCHOR ICON</a></li>
+                   <li><a href="">facebook</a></li>
+                   <li><a href="">twitter</a></li>
+                   <li><a href="">blog</a></li>
+                   <li><a href="">google+</a></li>
+               </ul>
+            
+
+        </div>
+
+    
+        <div class="bottom-second flex-row">
+        
+            <div class="subscribe">
+                <div class="subscribe-inner">
+                    <h3>SUBSCRIBE</h3>
+                    <div class="flex-row subscribe-input-buton border-all">
+<input type="text" class="subscription-input"  placeholder=" you@somedomain.com"> 
+<button class="subscription-btn">SUBSCRIBE NOW</button>
+                    </div>
+        
+                </div>
+                 
+            </div>
+
+            <div class="contact">
+                <h3>CONTACT</h3>
+           <p> Marforis Complex, 
+               107 East-West Road<br/> 
+               Port Harcourt<br/>  Nigeria
+            </p>
+            </div>
+            <div class="about">
+                <h3>ABOUT</h3>
+         E-list is Nigeria first online events directory. E-list does the most difficult part od finding right event center for your nect big event and takes your all the way from negotiation to payment.
+            </div>
+
+        </div>
+    
+      <div class="last-bottom-wrap">
+        <div class="last-bottom flex-row flex-justify-between">
+            <div class="socials">
+                 <i class="fa fa-facebook-square"></i>
+                 <i class="fa fa-twitter-square"></i>
+                 <i class="fa fa-youtube-play"></i>
+                 <i class="fa fa-instagram"></i>
+            </div>
+            <div class="copy-right-info">&copy E-list 2020 All right reserved.</div>
+            <div class="developer-info">E-list is Nigeria first ever online events wbsite, we have over 20,000 unique visitors daily.</div>
+        </div>
+    </div>   
+    </footer>
+  </div>
+</body>
+</html>
