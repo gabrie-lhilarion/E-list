@@ -1,6 +1,6 @@
-# Project Name
+# E-LIST an online events an events centers website
 
-> My HTML & CSS capstone project: Directory of Schools
+> My HTML & CSS capstone project: Directory of Events and Event centers
 
 ![screenshot](./app_screenshot.png)
 
@@ -24,26 +24,26 @@ This project has three pages crafted with HTML and CSS. THe three pages are the 
 
 To get a local copy up and running follow these simple example steps.
 
-### You will need a functional personal computer
+## You will need a functional personal computer
 
-### Create a folder in any location of your joice in your compter
+## Create a folder in any location of your joice in your compter
 
-### Copy the link of this git repository
+## Copy the link of this git repository
 
-### Open your computers command line and move into the directory you made for this project, and clone the repository
+## Open your computers command line and move into the directory you made for this project, and clone the repository
 
-### To view this project in the browser just double click any html file
+## To view this project in the browser just double click any html file
 
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Gabriel Hilarion**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@gabrie-lhilarion](https://github.com/gabrie-lhilarion)
+- Twitter: [@gabrielDeman](https://twitter.com/gabrielDeman)
+- Linkedin: [gabrielhilarion](https://linkedin.com/gabrielhilarion)
 
 
 
