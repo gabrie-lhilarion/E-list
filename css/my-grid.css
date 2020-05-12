@@ -41,8 +41,7 @@
     text-align: center;
 }
 
-.searchArea .flex-row,
-.step-two.flex-row {
+.searchArea .flex-row {
   display: block;
 }
 
