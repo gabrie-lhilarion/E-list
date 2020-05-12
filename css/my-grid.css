@@ -26,7 +26,7 @@
 .top-linksArea ul {justify-content: space-around;}
 .header-text {font-size: 1.2em;}
 
-.steps .flex-row,.bottom-first-links.flex-row{display:block;}
+.bottom-first-links.flex-row{display:block;}
 .steps .search-event,
 .steps .locate-event,
 .steps .apply-event,
