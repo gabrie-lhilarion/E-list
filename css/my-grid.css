@@ -78,6 +78,11 @@
     display:none;
   }
 
+  
+  .step-two.flex-row {
+    flex-direction: column; 
+  }
+
   .top.flex-row {
     flex-direction: column;
     text-align: center;
