@@ -20,6 +20,12 @@
 @media only screen and (max-width:768px){
 .d-sm-none{display:block;}
 .d-lg{display:none}
+.top.flex-row {flex-direction: column;text-align: center;height: 90px;}
+.top-logoArea,
+.top-linksArea {margin: auto;}
+.top-linksArea ul {justify-content: space-around;}
+.header-text {font-size: 1.2em;}
+
 .steps .flex-row,.bottom-first-links.flex-row{display:block;}
 .steps .search-event,
 .steps .locate-event,
@@ -30,7 +36,7 @@
 }
 
 .four-steps {
-    color: tomato;
+    color: rgb(230,70,56);
     font-size: 1.2em;
     text-align: center;
 }
