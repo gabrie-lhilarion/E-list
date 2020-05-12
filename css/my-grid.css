@@ -165,9 +165,6 @@
     margin: 20px 0;
 }
 
-.case-info p {
-   font-size: 1.2;
-}
 .four-steps {
     color: tomato;
     font-size: 1.3em;
@@ -182,7 +179,7 @@
 
 .click-to-view span {
     display: inline-block;
-    width: 15x;
+    width: 15px;
     height: 15px;
     background-color: #ccc;
     text-transform: uppercase;
