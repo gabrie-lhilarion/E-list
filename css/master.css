@@ -5,57 +5,54 @@
 }
 
 @font-face {
-    font-family: "LilongueMono";
-    src: url(../fonts/LilongueMono.ttf);
-}
-
-@font-face {
-    font-family: "LilongueSansBold";
-    src: url(../fonts/LilongueSansBold.ttf);
-}
-
-
-@font-face {
-    font-family: "LilongueSnasBook";
-    src: url(../fonts/LilongueSansBook.ttf);
-}
-
-@font-face {
-    font-family: "LilongueSnasDisplayBold";
-    src: url(../fonts/LilongueSansDisplayBold.ttf);
-}
-
-@font-face {
-    font-family: "LilongueSnasDisplayThin";
-    src: url(../fonts/LilongueSansDisplayThin.ttf);
-}
-
-@font-face {
     font-family: "LilongueSnasThin";
     src: url(../fonts/LilongueSansThin.ttf);
 }
 
-@font-face {
-    font-family: "ARCHITYPERENNERBOLD";
-    src: url(../fonts/ARCHITYPERENNERBOLD.ttf);
+* {
+    margin:0;
+    padding:0;
 }
 
-@font-face {
-    font-family: "ARCHITYPERENNER";
-    src: url(../fonts/ARCHITYPERENNER.ttf);
+.p-ten {
+    padding:10px;
 }
 
-* {margin:0;padding:0;}
-.p-ten{padding:10px;}
-.pt-ten{padding-top:10px;}
-.pb-ten{padding-bottom:10px;}
-.pl-ten{padding-left:10px;}
-.pr-ten{padding-right:10px;}
-.p-thirty{padding:30px;}
-.pt-thirty{padding-top:30px;}
-.pb-thirty{padding-bottom:30px;}
-.pl-thirty{padding-left:30px;}
-.pr-thirty{padding-right:30px;}
+.pt-ten {
+    padding-top:10px;
+}
+
+.pb-ten {
+    padding-bottom:10px;
+}
+
+.pl-ten {
+    padding-left:10px;
+}
+
+.pr-ten {
+    padding-right:10px;
+}
+
+.p-thirty {
+    padding:30px;
+}
+
+.pt-thirty {
+    padding-top:30px;
+}
+
+.pb-thirty {
+    padding-bottom:30px;
+}
+
+.pl-thirty {
+  padding-left:30px;
+}
+
+.pr-thirty {
+  padding-right:30px;
+}
 
 body {
     color: #fff;
@@ -79,7 +76,7 @@ p {
 
 .top-logoArea {
     font-weight: bold;
-    color: #fff; 
+    color: #fff;
 }
 
 .top-logoArea a {
@@ -101,6 +98,11 @@ p {
     list-style: none;
 }
 
+.step-two.flex-row h3 {
+    color: #666;
+    text-align: center;
+    padding-top: 20px;
+}
 
 .top-linksArea li a.active {
   background-color: #000;
@@ -126,7 +128,7 @@ p {
     box-sizing: border-box;
     padding-top: 50px;
     width: 100%;
-    min-height: 400px;  
+    min-height: 400px;
 }
 
 .large-heading-section {
@@ -136,7 +138,6 @@ p {
     width: 100%;
     height: auto;
 }
-
 
 .searchArea {
     background: rgba(245, 245, 242, 0.6);
@@ -148,9 +149,6 @@ p {
 .searchArea p {
     color: #333;
 }
-
-
-
 
 .searchBTN {
     display: block;
@@ -259,27 +257,22 @@ p {
     width: 80%;
 }
 
-
-
 .case-info button {
      padding: 5px;
      margin: 20px 0;
      border: none;
 }
 
-
 .case-image-one {
     background-image: url(../images/locate-image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 
 .case-image-two {
     background-image: url(../images/event-image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 
 .info-one {
@@ -291,19 +284,16 @@ p {
 }
 
 .info-three {
-    background-color:rgb(51,153,223);
+    background-color: rgb(51,153,223);
 }
-
 
 .my-footer {
     background-color: #333;
-    padding-top: 30px;
+    padding-top: 20px;
     font-family: LilongueSnasThin;
 }
 
-
-
-.bottom-first-links li{
+.bottom-first-links li {
     width: 90%;
     margin: auto;
     list-style: none;
@@ -379,18 +369,6 @@ p {
     word-spacing: 2.1px;
 }
 
-/* earch-rusult(s) is differnt 
-from search-result*/
-.search-results {
-    color: #000;
-    text-align: center;
-    font-size: 2.2rem;
-}
-
-.search-results span {
-   text-decoration: underline;
-}
-
 .search-result {
    background: rgba(224, 108, 62, 0.6);
    width: 90%;
@@ -410,21 +388,10 @@ from search-result*/
     font-size: 1.1em;
 }
 
-.the-details {
-    color: #000;
-    width: 80%;
-    margin: auto;
-}
-
 .event-center-name {
     color: #000;
     text-align: center;
     padding: 15px;;
-}
-
-.feature-wrap {
-    box-shadow: 2px 2px 10px grey;
-    padding: 30px;
 }
 
 .center-features p {
@@ -458,7 +425,7 @@ from search-result*/
 
 .center-name-inner {
     font-weight: bold;
-    
+
 }
 
 .full-description {
@@ -513,20 +480,12 @@ from search-result*/
 .Sign-up {
     border: none;
     display: inline-block;
-    padding: 4px 6px; 
-    margin-top: 20px; 
+    padding: 4px 6px;
+    margin-top: 20px;
 }
 
 .Sign-in {
     background: rgb(225,34,15);
     color: #fff;
-    margin-left: 5px; 
-} 
-
-
-
-
-
-
- 
-
+    margin-left: 5px;
+}
