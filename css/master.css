@@ -5,44 +5,8 @@
 }
 
 @font-face {
-    font-family: "LilongueMono";
-    src: url(../fonts/LilongueMono.ttf);
-}
-
-@font-face {
-    font-family: "LilongueSansBold";
-    src: url(../fonts/LilongueSansBold.ttf);
-}
-
-
-@font-face {
-    font-family: "LilongueSnasBook";
-    src: url(../fonts/LilongueSansBook.ttf);
-}
-
-@font-face {
-    font-family: "LilongueSnasDisplayBold";
-    src: url(../fonts/LilongueSansDisplayBold.ttf);
-}
-
-@font-face {
-    font-family: "LilongueSnasDisplayThin";
-    src: url(../fonts/LilongueSansDisplayThin.ttf);
-}
-
-@font-face {
     font-family: "LilongueSnasThin";
     src: url(../fonts/LilongueSansThin.ttf);
-}
-
-@font-face {
-    font-family: "ARCHITYPERENNERBOLD";
-    src: url(../fonts/ARCHITYPERENNERBOLD.ttf);
-}
-
-@font-face {
-    font-family: "ARCHITYPERENNER";
-    src: url(../fonts/ARCHITYPERENNER.ttf);
 }
 
 * {margin:0;padding:0;}
@@ -379,8 +343,6 @@ p {
     word-spacing: 2.1px;
 }
 
-/* earch-rusult(s) is differnt 
-from search-result*/
 .search-results {
     color: #000;
     text-align: center;

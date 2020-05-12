@@ -1,4 +1,6 @@
-.container{max-width:1750px;margin:auto;}
+.container{
+    max-width:1750px;
+    margin:auto;}
 .container-flud{width:100%;}
 .flex-row{display:flex;flex-direction:row;flex-wrap:nowrap}
 .flex-column{display:flex;flex-direction:column}
@@ -15,8 +17,6 @@
 .grow-two{flex-grow: 2;}
 .auto-flex{flex: auto}
 .four-steps{ padding: 25px;;}
-
-/* mobile: up to 768px */
 @media only screen and (max-width:768px){
 .d-sm-none{display:block;}
 .d-lg{display:none}
@@ -27,7 +27,6 @@
 .top-linksArea {margin: auto;}
 .top-linksArea ul {justify-content: space-around;}
 .header-text {font-size: 1.2em;}
-
 .step-two.flex-row,.bottom-first-links.flex-row{display:block;}
 .steps .search-event,
 .steps .locate-event,
